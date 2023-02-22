@@ -2,48 +2,69 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>WebComic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <title>Diamond Academy</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- Cherry Cream Soda -->
-    <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet">
   </head>
   <body>
+        <div id="container">
+            <div id="headerArea">
+                <div id="header" style="height: 500px;"></div>
+                <nav id="navbar" style="margin-bottom: 10px;">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="#">Chapters</a></li>
+                        <li><a href="/characters.html">Characters</a></li>
+                        <li><a href="/authors.html">Authors</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-  <!-- most of the elements on these pages are defined in the js files as functions, then we tell these functions where to show up on the page by placing empty divs and naming those divs the name of the js functions. check the js files to edit these elements in more detail.-->
-
-  <div align="center">
-    <!-- header that has the logo image and top page navigation. don't forget to put this on every page -->
-    <div class="writeHeader"></div>
-
-    <!-- make sure that if you want to turn on automatically scrolling to the top of the comic when you load a new page, keep the id of this div and the variable "navScrollTo" in showcomic.js the same-->
-    <div id="showComic">
-
-      <!-- write the title of the page. -->
-      <div class="writePageTitle"></div>
-      <!-- write top navigation -->
-      <div class="writeNav"></div>
-      <!-- write the current page of your comic -->
-      <div class="writePageClickable"></div>
-      <!-- write bottom navigation -->
-      <div class="writeNav"></div>
-      
-    </div>
-  </div>
-  <div id="authorNotes">
-    <h2>Author Notes</h2>
-    <!-- write the author notes for the current page-->
-    <div class="writeAuthorNotes"></div>
-  </div>
-
-<!-- footer that has a link back to rarebit, and ideally has copyright info and stuff. again, don't forget to put this on every page-->
-<div class="writeFooter"></div>
-
-  <!-- really important- every js script is called here, be sure to always put them just before the closing body tag, use a defer attribute, and call them in this specific order.-->
-    <script src="js/comic_settings.js" defer></script>
-    <script src="js/comic_show.js" defer></script>
-    <script src="js/comic_header.js" defer></script>
-    <script src="js/comic_footer.js" defer></script>
+            <div id="flex">
+                
+                <main>
+                    <h1><img src="gay/star-4.gif"></h1>
+                    <p></p>
+                    <h1 style="font-size: 35;">Welcome to the official <span style="color: #1B998B;"><b>Diamond Academy</b></span> website!</h1>
+                    <p></p>
+                    <h1><img src="gay/star-4.gif"></h1>
+                    <p></p>
+                    <h1><img src="gay/clairecmyk.png"></h1>
+                    <p><strong>Greetings!</strong></p>
+                    <p>This is the official hub for all things Diamond Academy related! Diamond Academy is a webcomic project about a world where people can buy superpowers! Diamond Academy itself is a school for young heroes looking to sharpen their skills and learn all about powers, as well as learning new abilities and make important connections.</p>
+                    <h1><img src="gay/divider.gif"></h1>
+                    <p><strong>What is the story about?</strong></p>
+                    <p>In a world where people can buy superpowers, a number of up-and-coming youth living in Crystal City train to become superheros at the esteemed superhero training academy, Diamond Academy. Although, along with these superpowers, comes a variety of issues along with it, not limited to just supervillains. A number of protesters, extremists, cults, gangs, and more are the cause of a lot of social turmoil from this new technology. However, Claire Millerite, an up and coming superhero student, plans on reinvigorating a positive outlook on superpowers, while helping as many people as she can along the way!</p>
+                    <h1><img src="gay/divider.gif"></h1>
+                    <p><strong>What else is on this webpage?</strong></p>
+                    <p>Other than the comic itself, you can find character bios, Social Media links/contacts, author information, and more! Feel free to explore as much as you want if you're curious!</p>
+                   
+                </main>
+                
+            <aside id="leftSidebar" style="margin-right: 10px;"><h2>Socials</h2>
+            <div class="box">
+                <p>In this box you can find a list of all out alternate social media pages, feel free to follow us on your preferred social media platforms!</p>
+                <ul style="padding-left:10px;">
+                <li><a href="https://d1amondacademy.tumblr.com/" target="_blank">Tumblr</a></li>
+                <li><a href="https://twitter.com/D1amondAcademy" target="_blank">Twitter</a></li>
+                <li><a href="https://www.tiktok.com/@diamondacademyofficial?lang=en" target="_blank">TikTok</a></li>
+                </ul>
+            </div>
+                <p></p>
+            <h2>Credits</h2>
+            <p>Diamond Academy is a collaborative project. All relevant credits are listed underneath, with relevant socials linked below</p>
+                <p><span style="color: #CF6E8F;"><b>Co-Creators</b></span> - Toybox & Peach</p>
+                <p><span style="color: #CF6E8F;"><b>Style & Final Art</b></span> - Toybox</p>
+                <p><span style="color: #CF6E8F;"><b>Writing & Story</b></span> - Peach</p>
+                <p><span style="color: #CF6E8F;"><b>Worldbuilding & Concepts</b></span> - Toybox & Peach</p>
+            <h3>Other Socials and Projects</h3>
+            <ul>
+                <li><a href="https://plasticknight.carrd.co" target="_blank">Toybox's carrd</a></li>
+                <li><a href="https://nostalgic-soda.tumblr.com" target="_blank">Peach's tumblr</a></li>
+            </ul></aside></div>
+        </div>
+        <style>
+style class="darkreader darkreader--sync" media="screen"></style>
   </body>
 </html>
